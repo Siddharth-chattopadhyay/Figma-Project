@@ -1,0 +1,111 @@
+/* Header */
+
+/* Nav Bar */
+header > .top-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header > .top-bar > nav{
+    /* height: 100%; */
+}
+
+header > .top-bar > nav > ul{
+    height: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header > .top-bar > nav > ul > li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+header > .top-bar > nav > ul > li > a{
+    color: var(--top-bar-nav-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC';
+    transition: all 0.5s ease;
+}
+
+header > .top-bar > nav > ul > li > a:focus{
+    color: var(--primary-text-color);
+}
+
+header > .top-bar > nav > ul > li > img{
+    width: 100%;
+}
+
+/* Banner */
+main > .section > .banner{
+    position: relative;
+}
+
+main > section > .banner > img{
+    width: 100%;
+}
+
+main > section > .banner > .title{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align : center;
+}
+
+main > section > .banner > .title > h4{
+    font-size: 64px;
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    letter-spacing: 3px;
+    text-shadow: 0px 5px 4px rgba(var(--black-rgb), 0.5);
+    margin-bottom: 30px;
+}
+
+
+main > section > .banner > .title > h3{
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--white);
+    text-shadow: 0px 5px 4px rgba(var(--black-rgb), 0.5);
+    font-family: var(--secondary-font-family);
+}
+
+
+/* AWP */
+
+main > section > .AWP{
+    margin: 100px 0;
+}
+
+main > section > .AWP > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section > .AWP > div:first-child{
+    height: 80px;
+}
+
+main > section > .AWP > div:nth-child(2){
+    margin: 30px auto;
+}
+
+main > section > .AWP > div:nth-child(2) > h3{
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: #BBA085;
+    letter-spacing: 4px;
+}
+
+main > section > .AWP > div > img{
+    height: 100%;
+}
+
