@@ -1,0 +1,187 @@
+/* Button */
+.btn{
+    display: flex;
+    width: 200px;
+    background-color: var(--text-color-100);
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color-400);
+    font-family: var(--secondary-font-family);
+    font-size: 28px;
+}
+
+/* Header */
+/* Nav Bar */
+.top-bar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.top-bar > nav > ul{
+    height: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-bar > nav > ul > li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+.top-bar > nav > ul > li > a{
+    color: var(--top-bar-nav-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC';
+    transition: all 0.5s ease;
+}
+
+.top-bar > nav > ul > li > a:focus{
+    color: var(--primary-text-color);
+}
+
+.top-bar > nav > ul > li > img{
+    width: 100%;
+}
+
+/* Body */
+/* Banner */
+.hero-banner{
+    position: relative;
+}
+
+.hero-banner > img{
+    width: 100%;
+}
+
+.hero-banner > .title{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align : center;
+}
+
+.hero-banner > .title > h4{
+    font-size: 64px;
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    letter-spacing: 3px;
+    text-shadow: 0px 5px 4px rgba(var(--black-rgb), 0.5);
+    margin-bottom: 30px;
+}
+
+
+.hero-banner > .title > h3{
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--white);
+    text-shadow: 0px 5px 4px rgba(var(--black-rgb), 0.5);
+    font-family: var(--secondary-font-family);
+}
+
+
+/* AWP */
+
+.AWP{
+    padding: 150px 0;
+    background-color: var(--primary-bg-color);
+}
+
+/* Image icon */
+.AWP > .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AWP > .image{
+    height: 80px;
+}
+
+.AWP > .image > img{
+    height: 100%;
+}
+
+/* hero heading */
+.AWP > .AWP-hero-heading{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.AWP > .AWP-hero-heading > h3{
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: var(--primary-text-color);
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.AWP > .AWP-hero-heading > p{
+    font-size: 64px;
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-text-color);
+}
+
+/* About me */
+
+.about-me > .container{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-me .image > img{
+    height: 105%;
+}
+
+.about-me .bio{
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+}
+
+.about-me .bio > p{
+    font-size: 300px;
+    font-family: var(--font-family-100);
+    color: var(--text-color-100);
+}
+
+.about-me-bio{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.about-me-bio > *{
+    margin: 40px auto;
+}
+
+.about-me-bio h2, .about-me-bio p{
+    font-family: var(--secondary-font-family);
+}
+
+
+.about-me-bio h2{
+    font-size: 48px;
+    color: var(--text-color-200);
+}
+
+.about-me-bio p{
+    font-size: 28px;
+    color: var(--text-color-300);
+}
+
+.about-me-bio > h5{
+    font-family: var(--primary-font-family);
+    font-size: 60px;
+}
