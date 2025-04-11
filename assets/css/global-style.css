@@ -11,14 +11,26 @@
     --primary-font-family: 'Ephesis';
     --secondary-font-family: 'Cormorant Garamond';
     --font-family-100: 'Forum';
+    --font-family-200: 'Raleway';
+    --font-family-300: 'Cormorant';
+    --font-family-play: 'Playfair Display';
     --top-bar-nav-text-color: #363636;
     --primary-text-color: #BBA085;
     --secondary-text-color:#4F4F4F;
+    --color-300: #B58B61;
     --text-color-100: #E9E1D9;
     --text-color-200: #4A4A4A;
     --text-color-300: #2D2D2D;
     --text-color-400: #484848;
+    --text-color-500: #545454;
+    --text-color-600: #585858;
+    --text-color-700: #5B5B5B;
+    --text-color-555: #555555;
+    --text-color-53: #535353;
+    --border-color-c6: #C6C6C6;
+    --text-color-414141: #414141;
     --primary-bg-color: #F4F4F4;
+    --secondary-bg-color: #F8F8F8;
     --white: white;
     --white-rgb: 255, 255, 255;
     --black: black;
@@ -28,7 +40,7 @@
     --fs: ;
     --fw: ;
     --lh: ;
-    --gw: 15px;
+    --gw: 0px;
 }
 body{
     background-color: white;
@@ -117,4 +129,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .justify-end{
     justify-content: flex-end;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
 }
